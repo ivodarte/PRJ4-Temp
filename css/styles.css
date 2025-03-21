@@ -2,27 +2,41 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Kirang+Haerang&display=swap');
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	font-family: Atma, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2702030;
+	background-color: #234884;
 }
+
+.fw-bolder {
+	font-family: Kirang Haerang, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #234884;
+	font-size:100px;
+}
+
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
     background-color: #e0f0ff;
-}
-
-.resume-main {
-	background-color: #fffefc;
+	border-radius: 20px;
+	margin-bottom: 10px;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #F0CFED;
+	border-radius: 10px;
+	width: 530px;
+	margin-left:auto;
+}
+
+.resume-main{
+	width: 600px;
+	background-color: #C9CE8E;
+	border-radius: 10px;
 }
 
 /* Styles for lists in the document */
@@ -42,7 +56,6 @@ body {
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
-
 /* Styles for contact icons */
 
 .contact-icon {
